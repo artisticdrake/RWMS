@@ -3,7 +3,7 @@ title: "Rainwater Management System using Raspberry Pi & OCR-Based Water Level D
 author: "Preetham Prathipati"
 ---
 
-# 🌧️ Overview
+# 🌧️ Rainwater Management System using Raspberry Pi & OCR-Based Water Level Detection
 
 This project presents an **automated rainwater monitoring and alert system** built on a **Raspberry Pi**, leveraging **computer vision** and **optical character recognition (OCR)** to measure water levels in real time.  
 It captures a live RTSP feed from a CCTV camera, processes each frame to detect the water level on a physical scale inside a sealed chamber, and sends **email alerts** when thresholds are exceeded.
@@ -43,16 +43,11 @@ It captures a live RTSP feed from a CCTV camera, processes each frame to detect 
 
 # 🧩 Tech Stack
 
-```{r, echo=FALSE}
-library(knitr)
-tech <- data.frame(
-  Component = c("Hardware", "Languages", "Libraries", "Tools / Methods", "OS Configuration"),
-  Description = c(
-    "Raspberry Pi 4, CCTV camera (RTSP), metal box with scale",
-    "Python",
-    "OpenCV, NumPy, pytesseract, smtplib, os, time",
-    "Hough Transform, Edge Detection, Grayscale Filtering, OCR",
-    "Auto-run via rc.local / systemd, periodic restart cycle"
-  )
-)
-kable(tech, caption = "Technology Stack", align = "l")
+| **Component**         | **Description**                                                                 |
+|------------------------|---------------------------------------------------------------------------------|
+| **Hardware**           | Raspberry Pi 4, CCTV camera (RTSP), metal box with scale                       |
+| **Languages**          | Python                                                                         |
+| **Libraries**          | OpenCV, NumPy, pytesseract, smtplib, os, time                                  |
+| **Tools / Methods**    | Hough Transform, Edge Detection, Grayscale Filtering, OCR                       |
+| **OS Configuration**   | Auto-run via `rc.local` / `systemd`, periodic restart cycle                    |
+
