@@ -1,6 +1,6 @@
 ---
-title: "Rainwater Management System using Raspberry Pi & OCR-Based Water Level Detection"
-author: "Preetham Prathipati"
+Title: "Rainwater Management System using Raspberry Pi & OCR-Based Water Level Detection"
+Author: "Preetham Prathipati"
 ---
 
 # 🌧️ Rainwater Management System using Raspberry Pi & OCR-Based Water Level Detection
