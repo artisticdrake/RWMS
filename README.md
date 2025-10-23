@@ -36,7 +36,7 @@ It captures a live RTSP feed from a CCTV camera, processes each frame to detect 
    - Logs value and prints alert on console.
 
 6. **Autonomous Operation**
-   - Script runs at system startup using `rc.local` or `systemd`.
+   - Script runs at system startup using `bootsh` script.
    - Pi powers off and restarts periodically to log water levels.
 
 ---
